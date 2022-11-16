@@ -1,0 +1,86 @@
+article {
+  margin: 0 auto;
+  width: 900px;
+  background-color: #2E3450;
+  color: white;
+}
+.header {
+  background-image: url("picture/duanwu.png");
+}
+.header_left {
+  float: left;
+  margin: 20px;
+}
+.header_left span {
+  background-color: aliceblue;
+  color: #2E3450;
+}
+.header_right {
+  float: right;
+  margin: 20px;
+}
+.title {
+  padding: 100px;
+}
+.neirong {
+  height: 350px;
+}
+.neirong img {
+  width: 350px;
+}
+.neirong_wb1 {
+  float: right;
+  width: 500px;
+}
+.neirong_wb1 h2 {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  width: 200px;
+}
+.neirong_wb1 p {
+  margin-bottom: 100px;
+}
+
+.neirong_wb2 {
+  float: left;
+  width: 500px;
+  margin-left: 50px;
+}
+.neirong_wb2 h2 {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  width: 200px;
+}
+a {
+  padding: 5px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
+.neirong_wb2 p {
+  margin-bottom: 100px;
+}
+.neirong_wb2 img {
+  right: 0;
+}
+
+.neirong_wb4 {
+  padding: 50px;
+}
+.neirong_wb4 h2 {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  width: 200px;
+}
+.neirong_wb4 p {
+  margin-bottom: 50px;
+}
+
+.footer {
+  color: #4E5369;
+  background-color: #242A43;
+  padding: 50px;
+}
+.footer span {
+  border-bottom:1px dashed #4E5369 ;
+}

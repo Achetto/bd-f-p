@@ -1,0 +1,93 @@
+a {
+  background-color: red;
+  color: white;
+  margin: 5px;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.a1 {
+  background-color: white;
+  border: 1px solid #555;
+  color: #555;
+}
+.a1:hover {
+  background-color: #555;
+  color: white;
+}
+.a1:active {
+  background-color: black;
+}
+
+.a2 {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+.a2:hover {
+  background-color: red;
+  color: white;
+}
+.a2:active {
+  background-color: black;
+}
+
+.a3 {
+  background-color: white;
+  border: 1px solid rgb(0, 115, 255);
+  color: rgb(0, 115, 255);
+}
+.a3:hover {
+  background-color: rgb(0, 115, 255);
+  color: white;
+}
+.a3:active {
+  background-color: blue;
+}
+
+.a4 {
+  background-color: white;
+  border: 1px solid rgb(0, 255, 94);
+  color: rgb(0, 255, 94);
+}
+.a4:hover {
+  background-color: rgb(0, 255, 94);
+  color: white;
+}
+.a4:active {
+  background-color: green;
+}
+
+.a5 {
+  background-color: white;
+  border: 1px solid orange;
+  color: orange;
+}
+.a5:hover {
+  background-color: orange;
+  color: white;
+}
+.a5:active {
+  background-color: yellow;
+}
+
+.a6 {
+  background-color: white;
+  border: 1px solid rgb(0, 255, 136);
+  color: rgb(0, 255, 136);
+  border-radius: 40%;
+}
+.a6:hover {
+  background-color: rgb(0, 255, 136);
+  color: white;
+}
+.a6:active {
+  background-color: green;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

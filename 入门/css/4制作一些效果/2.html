@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="content">
+    <h1>CSS TEMPLATES using border radius</h1>
+    <div class="d1">Blue</div>
+    <div class="d2"><span class="text">TRIANGLE</span></div>
+    <div class="d3">Red</div>
+  </div>
+</body>
+<style>
+  #content {
+    text-align: center;
+    border: 1px solid black;
+    width: 800px;
+    height: 400px;
+  }
+  .d1 {
+    float: left;
+    width: 264px;
+    height: 264px;
+    border-radius: 50%;
+    background-color: aqua;
+    line-height: 264px;
+    color: white;
+  }
+  .d2 {
+    float: left;
+    width: 0px;
+    height: 0px;
+    border: 132px solid transparent;
+    border-top-color: red;
+    border-right-color: yellow;
+    border-bottom-color: green;
+    border-left-color: blue ;
+    color: pink;
+  }
+  .d2 span {
+    display: inline-block;
+    margin-left: -35px;
+    margin-bottom: -35px;
+  }
+  .d3 {
+    float: left;
+    width: 144px;
+    height: 144px;
+    border: 60px solid red;
+    border-radius: 50%;
+    line-height: 144px;
+  }
+
+</style>
+</html>
